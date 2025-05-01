@@ -2,11 +2,11 @@ import dedeard from '@/assets/dedeard.jpg'
 import main2 from '@/assets/main5.jpeg'
 import { RESUME_URL } from '@/constans/common'
 import type { Metadata } from 'next'
-import Image from 'next/image'
+
 import Link from 'next/link'
 import PageTitle from '../components/PageTitle'
 
-export const dynamic = 'force-dynamic'
+
 
 export const metadata: Metadata = {
   title: 'About - Dim Pavlyuk',
@@ -25,7 +25,8 @@ export default function AboutPage() {
       <PageTitle title="About" />
       <div className="md:flex">
         <div className="mb-5 md:w-56">
-          <Image src={main2} alt="Foto dede ariansya" className="block w-full" placeholder="blur" />
+          <img src="/main5.jpeg" alt="Dima Pavlyuk Photo" className="block w-full"  width={224}
+  height={224}/>
         </div>
         <div className="md:flex-1 md:pl-6   justify-center  items-center align-center">
           <h2 className="mb-2 text-xl font-bold">I’m Dim Pavlyuk</h2>
@@ -35,7 +36,7 @@ export default function AboutPage() {
               understand.
             </p>
           </div>
-         
+
           <h2 className="mb-2 text-xl font-bold">Tech i love</h2>
           <div className="mb-6">
             <p className="mb-1">TypeScript, NextJs, FramerMotion, Tailwind, ShadCn, ViteJs.</p>

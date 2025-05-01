@@ -1,7 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
-  "/(root)/(app)/contact/page": "app/(root)/(app)/contact/page.js",
-  "/(root)/(app)/about/page": "app/(root)/(app)/about/page.js",
+  "/(root)/(app)/(home)/page": "app/(root)/(app)/(home)/page.js",
   "/(root)/(app)/projects/page": "app/(root)/(app)/projects/page.js",
-  "/(root)/(app)/(home)/page": "app/(root)/(app)/(home)/page.js"
+  "/(root)/(app)/about/page": "app/(root)/(app)/about/page.js",
+  "/(root)/(app)/contact/page": "app/(root)/(app)/contact/page.js"
 }

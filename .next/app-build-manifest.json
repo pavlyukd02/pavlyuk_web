@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/(root)/(app)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/(app)/layout.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,11 +21,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/layout.js"
     ],
-    "/(root)/(app)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/(app)/layout.js"
-    ],
     "/(root)/(app)/(home)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,15 +31,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/(app)/about/page.js"
     ],
-    "/(root)/(app)/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(root)/(app)/contact/page.js"
-    ],
     "/(root)/(app)/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/(app)/projects/page.js"
+    ],
+    "/(root)/(app)/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/(app)/contact/page.js"
     ]
   }
 }
